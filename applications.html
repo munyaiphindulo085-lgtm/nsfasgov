@@ -5,16 +5,18 @@
     <title>NSFAS | National Student Financial Aid Scheme</title>
     <link rel="stylesheet" href="./applications_files/styles.css">
     <style>
-        /* This makes the buttons look clickable and ensures the link works */
         .track-link { text-decoration: none !important; display: block; }
-        .btn-primary { cursor: pointer !important; }
+        .btn-primary { cursor: pointer !important; background-color: #007bff; color: white; border: none; padding: 8px 15px; border-radius: 4px; }
+        .table { width: 100%; border-collapse: collapse; margin-top: 20px; font-family: sans-serif; }
+        th { text-align: left; border-bottom: 2px solid #eee; padding: 10px; }
+        td { padding: 15px 10px; border-bottom: 1px solid #eee; }
     </style>
 </head>
 <body class="modal-open">
-    <div class="modal-content">
-        <h2 class="mb-4 text-center">All applications</h2>
+    <div class="modal-content" style="padding: 20px;">
+        <h2 style="text-align: center; margin-bottom: 30px;">All applications</h2>
         <div class="table-responsive">
-            <table class="table table-borderless">
+            <table class="table">
                 <thead>
                     <tr>
                         <th></th>
@@ -27,40 +29,36 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i></span></td>
+                        <td>🚩</td>
                         <td>PCS2026YR20251119210785RT</td>
                         <td>2026 - Year</td>
                         <td>Nov 19, 2025</td>
                         <td>Application In Progress</td>
-                        <td>
-                            <a href="track.html" class="track-link">
-                                <button type="button" class="btn btn-primary">Track application</button>
-                            </a>
-                        </td>
+                        <td><a href="track.html" class="track-link"><button type="button" class="btn btn-primary">Track application</button></a></td>
                     </tr>
                     <tr>
-                        <td><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i></span></td>
+                        <td>🚩</td>
                         <td>MCS2025YR20240922210635EL</td>
                         <td>2025 - Year</td>
                         <td>Sep 22, 2024</td>
                         <td>Application Verification</td>
-                        <td>
-                            <a href="track.html" class="track-link">
-                                <button type="button" class="btn btn-primary">Track application</button>
-                            </a>
-                        </td>
+                        <td><a href="track.html" class="track-link"><button type="button" class="btn btn-primary">Track application</button></a></td>
                     </tr>
                     <tr>
-                        <td><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i></span></td>
+                        <td>🚩</td>
                         <td>MCS0YR20240109020822IV</td>
                         <td>2024 - Year</td>
                         <td>Jan 9, 2024</td>
                         <td>Registration Received</td>
-                        <td>
-                            <a href="track.html" class="track-link">
-                                <button type="button" class="btn btn-primary">Track application</button>
-                            </a>
-                        </td>
+                        <td><a href="track.html" class="track-link"><button type="button" class="btn btn-primary">Track application</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>🚩</td>
+                        <td>OAC0YR20221007133229EU</td>
+                        <td>2023 - Year</td>
+                        <td>Oct 7, 2022</td>
+                        <td>Registration Received</td>
+                        <td><a href="track.html" class="track-link"><button type="button" class="btn btn-primary">Track application</button></a></td>
                     </tr>
                 </tbody>
             </table>
